@@ -23,5 +23,9 @@ angular.module('myApp.aldi', ['ngRoute'])
 		else{
 			$scope.passwordType = "text";
 		}
-	}
+	};
+
+	$scope.rememberUser = function(){
+		console.log(" this rememberUser fucntion is yet to be implemented");
+	};
 }]);
