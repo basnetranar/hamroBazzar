@@ -1,16 +1,16 @@
 'use strict';
 
-angular.module('myApp.aldi', ['ngRoute'])
+angular.module('myApp.login', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/aldi', {
-    templateUrl: 'aldi/aldi.html',
-    controller: 'aldiController'
+  $routeProvider.when('/login', {
+    templateUrl: 'login/login.html',
+    controller: 'loginController'
   });
 }])
 
-.controller('aldiController', ['$scope',function($scope) {
-	$scope.message = "welcome to aldi";
+.controller('loginController', ['$scope',function($scope) {
+	$scope.message = "welcome to login";
 	$scope.passwordType = "password";
 	console.log($scope.message);
 
