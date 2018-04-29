@@ -5,7 +5,7 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.login',
   'myApp.woolworth',
-  'myApp.coles',
+  'myApp.register',
   'myApp.home'
 ]).
 config([ '$routeProvider', function( $routeProvider) {
