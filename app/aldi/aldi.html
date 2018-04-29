@@ -1,0 +1,47 @@
+
+
+  <div class="row">
+
+	    <div class="col-md-3 text-right text-success text-lg">
+	    	<label for="username">USERNAME:</label>
+	    </div>
+
+	    <div class="col-md-3">
+	      <input type="text"  ng-model="myUsername" id="username" required></br>
+	    </div>
+
+   </div>
+
+   <div class="row">
+
+	    <div class="col-md-3 text-right text-success text-lg">
+	    	<label for="password ">PASSWORD:</label>
+	    </div>
+
+	    <div class="col-md-3">
+	      <input type={{passwordType}} ng-model="myPassword" id="password" required></br>
+	    </div>
+
+   </div>
+
+   <div class="row">
+
+	    <div class="col-md-8 text-center text-success">
+	    	<input type="checkbox" ng-model="showPassword" ng-click = "displayPassword()"> Show Password 
+	    </div>
+   </div>
+
+   <div class="row">
+
+	    <div class="col-md-8 text-center text-success">
+	    	<input type="checkbox" ng-model="rememberMe" ng-click = "rememberUser()"> Remember Me
+	    </div>
+   </div>
+   <div class="row">
+
+	    <div class="col-md-7 text-center text-success">
+	    	<button class = "btn btn-primary btn-sm" id="loginButton" type="submit" ng-click ="verifyUserPassword()">Login</button>
+	    </div>
+   </div>
+
+
