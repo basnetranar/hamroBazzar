@@ -4,7 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.login',
-  'myApp.woolworth',
+  'myApp.contactUs',
   'myApp.register',
   'myApp.home'
 ]).
